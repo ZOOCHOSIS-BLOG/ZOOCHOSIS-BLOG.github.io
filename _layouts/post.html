@@ -3,9 +3,6 @@ layout: default
 ---
 
 <div class="post-container">
-    <div class="post-content">
-    {{ content }}
-    </div>
     <center>
         <span class="date">
             {{ page.date | date_to_string }} 
@@ -16,7 +13,9 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
     </center>
     <div class="ui divider"></div>
-    {{ content }}
+    <div class="post-content">
+        {{ content }}
+    </div>
     <div class="ui horizontal divider">
         Thank You For Reading
     </div>

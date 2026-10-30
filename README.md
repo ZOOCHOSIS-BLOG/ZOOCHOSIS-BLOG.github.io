@@ -25,6 +25,7 @@ Wall-E is a modern Jekyll template with a magazine-like grid layout on the front
 - One column layout suitable for personal blogs with focus on content
 - Beautiful typography (uses League Gothic and Open Sans)
 - Feature image can be added to homescreen post cards
+- Post backgrounds can be set with `image.background` in front matter; image filenames are expected in `/images/`
 - Search box links to Google search by default
 
 ## Usage

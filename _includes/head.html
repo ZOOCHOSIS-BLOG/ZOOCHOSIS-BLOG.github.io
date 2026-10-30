@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="/assets/css/vendor/syntax.css">
     <link rel="stylesheet" href="/assets/css/vendor/semantic.min.css"/>
 
+    {% if page.image.background %}
+        {% assign background_image = page.image.background %}
+        {% unless background_image contains '://' %}
+            {% assign first_character = background_image | slice: 0 %}
+            {% unless first_character == '/' %}
+                {% assign background_image = background_image | prepend: '/images/' %}
+            {% endunless %}
+            {% assign background_image = background_image | relative_url %}
+        {% endunless %}
+        <style>
+            body {
+                background-image: url("{{ background_image | escape }}");
+                background-repeat: repeat;
+            }
+        </style>
+    {% endif %}
+
     <link rel="shortcut icon" type="image/png" href="/assets/img/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 </head>

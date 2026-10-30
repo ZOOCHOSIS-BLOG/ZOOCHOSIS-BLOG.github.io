@@ -1,5 +1,5 @@
 
-    Import League Gothic <3
+    /* Import League Gothic <3
 */
 @font-face {
     font-family: 'League Gothic';
@@ -125,4 +125,10 @@ main {
 
 .post-container {
     font-family: "Open Sans", sans-serif;
+}
+
+.post-content {
+    color: white;
+    background-color: black;
+    padding: 1rem;
 }

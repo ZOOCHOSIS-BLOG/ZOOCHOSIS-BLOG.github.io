@@ -1,6 +1,5 @@
 
-    /* Import League Gothic <3
-*/
+    /* Import League Gothic <3*/
 @font-face {
     font-family: 'League Gothic';
     src: url('leaguegothic-regular-webfont.eot');
@@ -28,7 +27,7 @@ img, video, iframe {
 }
 
 header {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     background-image: url(/assets/img/bg.jpg);
     background-size: cover;
@@ -91,9 +90,11 @@ footer {
 /* main */
 
 main {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 1rem;
+    color: white;
+    background-color: black;
 }
 
 .ui.card {
@@ -132,3 +133,5 @@ main {
     background-color: black;
     padding: 1rem;
 }
+
+/* /post */

@@ -20,14 +20,14 @@ img, video, iframe {
 }
 
 body {
-    background-color: black;
+    background-color: RGBA(26, 26, 31, 1)
 }
 
 /* header */
 
 .header-wrapper {
     max-height: 100%;
-    background-color: black;
+    background-color: RGBA(26, 26, 31, 1);
 }
 
 header {

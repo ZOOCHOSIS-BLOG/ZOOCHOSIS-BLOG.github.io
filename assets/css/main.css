@@ -1,18 +1,24 @@
 
-    /* Import League Gothic <3*/
+/* Source Sans 3 variable font */
 @font-face {
-    font-family: 'League Gothic';
-    src: url('leaguegothic-regular-webfont.eot');
-    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('leaguegothic-regular-webfont.woff') format('woff'),
-    url('leaguegothic-regular-webfont.ttf') format('truetype'),
-    url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
+    font-family: "Source Sans 3";
+    src: url("fonts/source-sans-3/variable/source-sans-3-latin-wght-normal.woff2") format("woff2");
+    font-weight: 200 900;
     font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+
+
 
 html, body {
     height: 100%;
+}
+
+body,
+.ui {
+    font-family: "Source Sans 3", sans-serif;
 }
 
 img, video, iframe {
@@ -50,7 +56,7 @@ header {
 }
 
 .site-description {
-    font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     text-align: center;
 }
 
@@ -130,13 +136,13 @@ main {
 /* post */
 
 .post-container {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .post-content {
     color: white;
-    background-color: black;
-    padding: 1rem;
+    background-color: RGBA(26, 26, 31, 1);
+    padding: 2rem;
 }
 
 /* /post */

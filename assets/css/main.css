@@ -154,7 +154,7 @@ main {
     padding: 2rem;
 }
 
-.reading-divider {
+.ui.horizontal.divider.reading-divider {
     color: rgba(237, 237, 237, 1) !important;
 }
 

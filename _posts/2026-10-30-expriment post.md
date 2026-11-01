@@ -5,9 +5,6 @@ description: "I'm so brave I know how to be loved"
 author: Phoebe Jennings-Gartside
 ---
 
-* TOC
-{:toc}
-
 
 # Hello, I making a good nice post 
 

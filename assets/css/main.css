@@ -65,7 +65,8 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 0.25em 0.75em;
-    background-color: rgba(26, 26, 31, 1);
+    background-color: rgba(26, 26, 31, 0.75);
+    border-radius: 0.28571429rem;
 }
 
 

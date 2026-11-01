@@ -60,7 +60,7 @@ header {
     font-weight: 700;
     text-decoration-line: underline;
     text-align: center;
-    background-color: RGBA(26, 26, 31, 1, 0.75);
+    background-color: rgba(26, 26, 31, 0.75);
 }
 
 

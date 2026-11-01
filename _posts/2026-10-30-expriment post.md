@@ -2,7 +2,7 @@
 title: experiment post
 layout: post
 description: "I'm so brave I know how to be loved"
-Author: Phoebe Jennings-Gartside
+author: Phoebe Jennings-Gartside
 ---
 
 * TOC

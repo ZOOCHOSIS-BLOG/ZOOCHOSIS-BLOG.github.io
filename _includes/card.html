@@ -33,9 +33,10 @@
         <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}">
             0 Comments
         </a>
-        {% if post.author %}
+        {% assign card_author = post.author | default: site.author %}
+        {% if card_author %}
         <div class="right floated author">
-            <img class="ui avatar image" src="/assets/img/profile.jpg"> {{ post.author }}
+            <img class="ui avatar image" src="/assets/img/profile.jpg"> {{ card_author }}
         </div>
         {% endif %}
     </div>

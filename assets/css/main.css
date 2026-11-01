@@ -60,6 +60,10 @@ header {
     font-weight: 700;
     text-decoration-line: underline;
     text-align: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em 0.75em;
     background-color: rgba(26, 26, 31, 0.75);
 }
 

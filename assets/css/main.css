@@ -45,6 +45,11 @@ header {
     background-color: rgba(26, 26, 31, 0.75);
 }
 
+.site-nav {
+    width: 100%;
+    background-color: rgba(26, 26, 31, 0.75);
+}
+
 .site-logo {
     max-width: 15%;
     height: auto;

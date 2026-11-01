@@ -163,4 +163,9 @@ main {
     background-color: rgba(26, 26, 31, 1);
 }
 
+.author-card .ui.items > .item > .content > .header,
+.author-card .ui.items > .item > .content > .description {
+    color: rgba(237, 237, 237, 1);
+}
+
 /* /post */

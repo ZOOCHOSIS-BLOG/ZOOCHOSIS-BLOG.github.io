@@ -57,10 +57,10 @@ header {
 
 .site-description {
     font-family: "Source Sans 3", sans-serif;
-    weight: 700;
+    font-weight: 700;
     text-decoration-line: underline;
     text-align: center;
-    background-color: RGBA(26, 26, 31, 1, 0.5);
+    background-color: RGBA(26, 26, 31, 1, 0.75);
 }
 
 

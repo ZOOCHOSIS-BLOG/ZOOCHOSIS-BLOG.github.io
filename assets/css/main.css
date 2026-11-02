@@ -77,6 +77,18 @@ header {
     margin-top: 0%;
 }
 
+.head-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-forename {
+    font-family: "Source Sans 3", sans-serif;;
+    text-align: center;
+    margin: 0 0 0.25rem;
+}
+
 .site-description {
     font-family: "Source Sans 3", sans-serif;
     font-weight: 600;

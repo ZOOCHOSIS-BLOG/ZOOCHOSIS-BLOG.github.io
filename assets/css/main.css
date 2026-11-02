@@ -12,6 +12,8 @@
 
 html {
     font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 html, body {
@@ -31,6 +33,7 @@ img, video, iframe {
 body {
     background-color: rgba(26, 26, 31, 1);
 }
+
 
 /* header */
 
@@ -53,31 +56,39 @@ header {
     background-color: rgba(26, 26, 31, 0.75);
 }
 
+.head-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem; /* space between logo and description */
+    padding: 2rem 5%;
+}
+
 .site-logo {
+    flex: 0 0 15%;
     max-width: 15%;
     height: auto;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .logo {
+    display: block;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 0%;
 }
 
 .site-description {
     font-family: "Source Sans 3", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration-line: underline;
     text-align: center;
-    font-size: 1.25rem;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin-left: 0;
     padding: 0.25em 0.5em;
+    text-align: left;
     background-color: rgba(26, 26, 31, 0.75);
     border-radius: 0.28571429rem;
 }
-
 
 /* /header */
 

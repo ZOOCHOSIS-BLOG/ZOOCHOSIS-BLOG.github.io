@@ -29,10 +29,6 @@
         </div>
     </div>
     <div class="extra content">
-        <i class="comments icon"></i>
-        <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}">
-            0 Comments
-        </a>
         {% assign card_author = post.author | default: site.author %}
         {% if card_author %}
         <div class="right floated author">

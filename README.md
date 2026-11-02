@@ -21,7 +21,6 @@ Wall-E is a modern Jekyll template with a magazine-like grid layout on the front
 ## Features
 
 - Mobile responsive, built with Semantic UI, customization is easy
-- Disqus is integrated by default
 - One column layout suitable for personal blogs with focus on content
 - Beautiful typography (uses League Gothic and Open Sans)
 - Feature image can be added to homescreen post cards

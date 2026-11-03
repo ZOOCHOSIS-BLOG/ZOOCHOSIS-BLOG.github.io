@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- one, two and then four card rows -->
-<div class="ui centered grid stackable">
+<div class="ui centered grid stackable front-page-grid">
     {% assign counter = 0 %}
     {% for post in site.posts %}
         {% assign counter = counter | plus: 1 %}
@@ -40,4 +40,3 @@ layout: default
     {% endfor %}
 </div>
 <div class="ui divider"></div>
-

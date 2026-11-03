@@ -21,4 +21,8 @@
     main {
         max-width: 95%;
     }
+
+    .front-page-grid .ui.card .description {
+        -webkit-line-clamp: 4;
+    }
 }

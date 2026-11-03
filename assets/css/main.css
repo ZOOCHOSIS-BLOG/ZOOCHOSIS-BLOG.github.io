@@ -165,6 +165,13 @@ main {
     width: auto !important;
 }
 
+.front-page-grid .ui.card .description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
 .ui.card image  {
     width: 100% !important;
     height: 200px !important;
@@ -222,4 +229,9 @@ main {
 
 
 /* to do: background textures - maybe easiest to make an image background. 
-The text has lots of content either side of it, is there a way to fill it? a navigation thing? */
+    The text has lots of content either side of it, is there a way to fill it? a navigation thing? 
+
+    social links - remove twitter and facebook etc.
+    
+
+*/

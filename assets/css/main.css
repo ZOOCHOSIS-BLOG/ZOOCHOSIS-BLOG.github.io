@@ -194,7 +194,9 @@ main {
 
 .post-container {
     font-family: "Source Sans 3", sans-serif;
-    max-width: 38rem;
+    max-width: 66ch;
+    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+    line-height: 1.5;
 }
 
 .post-content {

@@ -201,12 +201,11 @@ main {
 }
 
 .post-content {
-    text-align: left;
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
     padding: 1.5rem;
     max-width: 66ch;
-    margin: 0 auto;
+    margin: 0 auto 0 0;
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 

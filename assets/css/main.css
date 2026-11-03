@@ -168,6 +168,7 @@ main {
 .front-page-grid .ui.card .description {
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    line-clamp: 6;
     -webkit-line-clamp: 6;
     overflow: hidden;
 }
@@ -200,6 +201,7 @@ main {
 }
 
 .post-content {
+    text-align: left;
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
     padding: 1.5rem;

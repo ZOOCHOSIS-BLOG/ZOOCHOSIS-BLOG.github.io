@@ -42,7 +42,6 @@ body {
     text-align: right;
     letter-spacing: 0.05;
 }
-
 /* header */
 
 .header-wrapper {
@@ -191,17 +190,12 @@ main {
 
 .post-container {
     font-family: "Source Sans 3", sans-serif;
-    max-width: 66ch;
-    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
-    line-height: 1.5;
 }
 
 .post-content {
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
     padding: 1.5rem;
-    font-size: 1rem;
-    letter-spacing: 0.02;
 }
 
 .ui.horizontal.divider.reading-divider {

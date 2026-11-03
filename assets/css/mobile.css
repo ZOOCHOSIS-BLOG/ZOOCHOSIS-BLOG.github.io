@@ -23,6 +23,7 @@
     }
 
     .front-page-grid .ui.card .description {
+        line-clamp: 4;
         -webkit-line-clamp: 4;
     }
 }

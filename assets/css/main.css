@@ -224,6 +224,16 @@ main {
 
 /* /post */
 
+/* speacial and extra */
+    .alert {
+        padding: 20px;
+        background-color: #f88527;
+        color: black;
+        text-align: left;
+        margin-bottom: 15px;
+        border-radius: 0.28571429rem
+    }
+
 
 
 

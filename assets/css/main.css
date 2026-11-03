@@ -24,9 +24,6 @@ body,
 .ui {
     font-family: "Source Sans 3", sans-serif;
     font-size: 1rem;
-    max-width: 66ch;
-    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
-    line-height: 1.5;
 }
 
 img, video, iframe {

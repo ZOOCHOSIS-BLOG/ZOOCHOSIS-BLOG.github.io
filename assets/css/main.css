@@ -196,6 +196,8 @@ main {
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
     padding: 1.5rem;
+    max-width: 66ch;
+    margin: 0 auto;
 }
 
 .ui.horizontal.divider.reading-divider {

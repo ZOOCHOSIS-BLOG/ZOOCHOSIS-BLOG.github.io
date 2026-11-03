@@ -198,6 +198,7 @@ main {
     padding: 1.5rem;
     max-width: 66ch;
     margin: 0 auto;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 
 .ui.horizontal.divider.reading-divider {
@@ -215,3 +216,10 @@ main {
 }
 
 /* /post */
+
+
+
+
+
+/* to do: background textures - maybe easiest to make an image background. 
+The text has lots of content either side of it, is there a way to fill it? a navigation thing? */

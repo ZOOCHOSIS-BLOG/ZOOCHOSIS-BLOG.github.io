@@ -123,7 +123,7 @@ header {
 .page-wrap {
     min-height: 100%;
     margin-bottom: 1rem;
-    background-color: rgba(26, 26, 31, 0.1);
+    background-color: rgba(26, 26, 31, 1);
 }
 
 .page-wrap:after {
@@ -158,11 +158,11 @@ footer {
 /* main */
 
 main {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     padding-top: 1rem;
     color: rgba(237, 237, 237, 1);
-    background-color: rgba(26, 26, 31, 0.6);
+    background-color: rgba(26, 26, 31, 1);
 }
 
 .ui.card {

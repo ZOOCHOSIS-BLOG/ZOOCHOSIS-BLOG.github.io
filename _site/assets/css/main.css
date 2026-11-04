@@ -1,0 +1,258 @@
+
+/* Source Sans 3 variable font */
+@font-face {
+    font-family: "Source Sans 3";
+    src: url("fonts/source-sans-3/variable/source-sans-3-latin-wght-normal.woff2") format("woff2");
+    font-weight: 200 900;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+html, body {
+    height: 100%;
+}
+
+body,
+.ui {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+}
+
+img, video, iframe {
+    max-width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(26, 26, 31, 1);
+    /*background-image: url("/assets/img/other%20photos/textures/textures%203%20new%20grain%20and%20slightly%20darker.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+}
+
+.the-voice {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: rgba(237, 237, 237, 1);
+    text-align: right;
+    letter-spacing: 0.05;
+}
+/* header */
+
+.header-wrapper {
+    max-height: 100%;
+    background-color: rgba(26, 26, 31, 0.25);
+}
+
+header {
+    max-width: 95%;
+    margin: 0 auto;
+    background-image: url(/assets/img/bg.jpg);
+    background-size: cover;
+    color: white;
+    background-color: rgba(26, 26, 31, 0.75);
+}
+
+.site-nav {
+    width: 100%;
+    background-color: rgba(26, 26, 31, 0.75);
+}
+
+.head-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem; /* space between logo and description */
+    padding: 2rem 5%;
+}
+
+.site-logo {
+    flex: 0 0 15%;
+    max-width: 15%;
+    height: auto;
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.head-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-forename {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-align: left;
+    margin: 0 0 1rem;
+    display: block;
+    padding: 0.25em 0.5em;
+    background-color: rgba(26, 26, 31, 0.75);
+    border-radius: 0.28571429rem;    
+}
+
+.site-description {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-align: left;
+    margin: 0;
+    display: block;
+    padding: 0.25em 0.5em;
+    background-color: rgba(26, 26, 31, 0.75);
+    border-radius: 0.28571429rem;
+}
+
+/* /header */
+
+.page-wrap {
+    flex: 1 0 auto;
+    background-color: rgba(26, 26, 31, 0);
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+/* footer */
+
+footer {
+    color: rgba(237, 237, 237, 1) !important;    
+    background-color: rgba(26, 26, 31, 1);
+    height: 6rem;
+    padding-top: 1rem;
+}
+
+.footer-wrapper { 
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.ui.transparent.icon.input {
+    color: rgba(237, 237, 237, 1) !important;
+}
+
+.ui.transparent.icon.input input:focus {
+    color: rgba(237, 237, 237, 1) !important;
+}
+
+/* /footer */
+
+/* main */
+
+main {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    color: rgba(237, 237, 237, 1);
+    background-color: rgba(26, 26, 31, 1);
+}
+
+.ui.card {
+    width: auto !important;
+}
+
+.front-page-grid .ui.card .description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 6;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.ui.card image  {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.image {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.small-date {
+    color: rgba(26, 26, 31, 1);
+    font-weight: lighter;   
+}
+
+.description {
+    word-wrap: break-word;
+}
+
+.archive-preview {
+    color: rgba(237, 237, 237, 1);
+}
+/* /main */
+
+/* post */
+
+.post-container {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.post-content {
+    color: rgba(237, 237, 237, 1);
+    background-color: rgba(26, 26, 31, 1);
+    padding: 1.5rem;
+    max-width: 66ch;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+}
+
+.ui.horizontal.divider.reading-divider {
+    color: rgba(237, 237, 237, 1) !important;
+}
+
+.ui.segment {
+    color: rgba(237, 237, 237, 1); 
+    background-color: rgba(26, 26, 31, 1);
+}
+
+.author-card .ui.items > .item > .content > .header,
+.author-card .ui.items > .item > .content > .description {
+    color: rgba(237, 237, 237, 1);
+}
+
+/* /post */
+
+/* special and extra */
+    .alert {
+        padding: 20px;
+        background-color: #f88527;
+        color: black;
+        text-align: left;
+        margin-bottom: 15px;
+        border-radius: 0.28571429rem
+    }
+
+
+
+
+
+/* to do: background textures - maybe easiest to make an image background. 
+    The text has lots of content either side of it, is there a way to fill it? a navigation thing? 
+
+    social links - remove twitter and facebook etc.
+    
+
+*/

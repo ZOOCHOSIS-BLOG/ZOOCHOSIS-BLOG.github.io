@@ -163,7 +163,7 @@ main {
     margin: 0 auto;
     padding-top: 1rem;
     color: rgba(237, 237, 237, 1);
-    background-color: rgba(26, 26, 31, 0);
+    background-color: rgba(26, 26, 31, 0.75);
 }
 
 .ui.card {

@@ -12,8 +12,8 @@ title: Archive
                 <br>
                 <small class="archive-preview">
                     {{ post.date | date_to_string }}
-                    {% if post.category %} 
-                     <i>{{ post.category | join: ", " }}</i>
+                    {% if post.categories %} 
+                     <i>{{ post.categories | join: ", " }}</i>
                     {% endif %} 
                 </small>
             </a>

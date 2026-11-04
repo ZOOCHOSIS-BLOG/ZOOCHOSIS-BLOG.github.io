@@ -31,8 +31,8 @@ img, video, iframe {
 }
 
 body {
-    background-color: rgba(26, 26, 31, 1);
-    background-image: url("/assets/img/otherphotos/textures/textures 2 layered.WebP");
+    background-color: rgba(26, 26, 31, 0);
+    background-image: url("/assets/img/other%20photos/textures/textures%202%20layered.WebP");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body {
 
 .header-wrapper {
     max-height: 100%;
-    background-color: rgba(26, 26, 31, 0.75);
+    background-color: rgba(26, 26, 31, 0.25);
 }
 
 header {
@@ -123,7 +123,7 @@ header {
 .page-wrap {
     min-height: 100%;
     margin-bottom: 1rem;
-    background-color: rgba(26, 26, 31, 0.75);
+    background-color: rgba(26, 26, 31, 0.1);
 }
 
 .page-wrap:after {

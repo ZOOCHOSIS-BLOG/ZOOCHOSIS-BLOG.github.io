@@ -75,6 +75,13 @@ header {
     width: auto;
 }
 
+.ui.menu .item > img.instagram-logo {
+    display: block;
+    height: 24px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
 .head-area {
     display: flex;
     align-items: center;

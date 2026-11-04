@@ -31,7 +31,9 @@ img, video, iframe {
 }
 
 body {
-    background-color: rgba(26, 26, 31, 0);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(26, 26, 31, 0.2);
     background-image: url("/assets/img/other%20photos/textures/textures%202%20layered.WebP");
     background-size: cover;
     background-position: center;
@@ -121,8 +123,7 @@ header {
 /* /header */
 
 .page-wrap {
-    min-height: 100%;
-    margin-bottom: 1rem;
+    flex: 1 0 auto;
     background-color: rgba(26, 26, 31, 1);
 }
 

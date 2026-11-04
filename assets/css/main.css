@@ -69,6 +69,12 @@ header {
     background-color: rgba(26, 26, 31, 0.75);
 }
 
+.bandcamp-logo {
+    display: block;
+    height: 24px;
+    width: auto;
+}
+
 .head-area {
     display: flex;
     align-items: center;

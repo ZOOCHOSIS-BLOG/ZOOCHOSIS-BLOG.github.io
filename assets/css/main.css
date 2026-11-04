@@ -69,10 +69,10 @@ header {
     background-color: rgba(26, 26, 31, 0.75);
 }
 
-.bandcamp-logo {
+.ui.menu .item > img.bandcamp-logo {
     display: block;
     height: 24px;
-    width: 24px;
+    width: auto;
 }
 
 .head-area {

@@ -34,10 +34,10 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(26, 26, 31, 1);
-    background-image: url("/assets/img/other%20photos/textures/textures%203%20new%20grain%20and%20slightly%20darker.png");
+    /*background-image: url("/assets/img/other%20photos/textures/textures%203%20new%20grain%20and%20slightly%20darker.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 .the-voice {

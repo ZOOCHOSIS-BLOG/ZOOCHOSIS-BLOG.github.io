@@ -2,7 +2,7 @@
 layout: post
 title: Post with a Background Image
 description: "Sample post with a background image CSS override."
-tags: [sample post]
+category: [sample post]
 author: Phoebe Jennings-Gartside
 image:
   background: "/assets/img/other photos/solid black.jpg"

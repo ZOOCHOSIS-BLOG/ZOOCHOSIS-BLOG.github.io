@@ -124,7 +124,7 @@ header {
 
 .page-wrap {
     flex: 1 0 auto;
-    background-color: rgba(26, 26, 31, 0);
+    background-color: rgba(26, 26, 31, 0.25);
 }
 
 .page-wrap:after {
@@ -163,7 +163,7 @@ main {
     margin: 0 auto;
     padding-top: 1rem;
     color: rgba(237, 237, 237, 1);
-    background-color: rgba(26, 26, 31, 0.75);
+    background-color: rgba(26, 26, 31, 1);
 }
 
 .ui.card {

@@ -20,7 +20,7 @@
         <div class="meta">
             <span class="date">{{ post.date | date_to_string }} 
             {% if post.category %} 
-                in {{ post.categories }}
+                <i>{{ post.category }}</i>
             {% endif %} 
             </span>
         </div>

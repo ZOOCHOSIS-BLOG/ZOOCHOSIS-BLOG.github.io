@@ -32,6 +32,10 @@ img, video, iframe {
 
 body {
     background-color: rgba(26, 26, 31, 1);
+    background-image: url("/assets/img/otherphotos/textures/textures 2 layered.WebP");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .the-voice {
@@ -158,7 +162,7 @@ main {
     margin: 0 auto;
     padding-top: 1rem;
     color: rgba(237, 237, 237, 1);
-    background-color: rgba(26, 26, 31, 1);
+    background-color: rgba(26, 26, 31, 0.6);
 }
 
 .ui.card {

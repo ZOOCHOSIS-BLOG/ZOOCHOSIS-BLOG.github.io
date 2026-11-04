@@ -192,6 +192,10 @@ main {
 .description {
     word-wrap: break-word;
 }
+
+.archive-preview {
+    color: rgba(237, 237, 237, 1);
+}
 /* /main */
 
 /* post */
@@ -225,7 +229,7 @@ main {
 
 /* /post */
 
-/* speacial and extra */
+/* special and extra */
     .alert {
         padding: 20px;
         background-color: #f88527;

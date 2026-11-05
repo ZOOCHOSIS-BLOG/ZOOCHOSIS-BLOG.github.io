@@ -181,7 +181,7 @@ main {
 
 .ui.card {
     width: auto !important;
-    max-height: 22rem;
+    max-height: 100rem;
     overflow: hidden;
 }
 

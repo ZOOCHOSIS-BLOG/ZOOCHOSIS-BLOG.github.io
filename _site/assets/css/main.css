@@ -181,6 +181,8 @@ main {
 
 .ui.card {
     width: auto !important;
+    max-height: 100rem;
+    overflow: hidden;
 }
 
 .front-page-grid .ui.card .description {

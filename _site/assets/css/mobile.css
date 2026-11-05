@@ -10,6 +10,27 @@
         display: none !important;
     }
 
+    footer {
+        height: auto;
+    }
+
+    .footer-wrapper {
+        max-width: 95%;
+    }
+
+    .footer-wrapper .ui.menu {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-wrapper .footer-social {
+        display: flex !important;
+    }
+
+    .footer-social img {
+        height: 20px !important;
+    }
+
     .site-nav .ui.menu {
         font-size: 0.85rem;
     }
@@ -21,7 +42,7 @@
     }
 
     header {
-        max-width: 95%;
+        max-width: 100%;
     }
 
     .site-logo {

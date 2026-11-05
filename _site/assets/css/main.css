@@ -239,6 +239,16 @@ main {
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 
+.about-content {
+    color: rgba(237, 237, 237, 1);
+    background-color: rgba(26, 26, 31, 1);
+    padding: 1.5rem;
+    max-width: 66ch;
+    margin: 0 auto;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+}
+
+/*for collapsables and notes column*/
 .post-content > *:not(.post-note-row):not(details) {
     max-width: 66ch;
 }

@@ -5,20 +5,39 @@
     <description>It&apos;s about people and sound.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Nov 2026 13:42:40 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2026 13:42:40 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Nov 2026 14:04:20 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2026 14:04:20 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
         <title>experiment post</title>
         <description>&lt;details&gt;
   &lt;summary&gt; Hello, I making a good nice post &lt;/summary&gt;
-  &lt;p&gt;ajdkfhbasoifbaesoifuab epfiuaebfpioauseb fpiesfbuaosei fbuaslefubasle kfubalsekub&lt;/p&gt;
+  &lt;div class=&quot;post-note-row&quot;&gt;
+    &lt;div class=&quot;post-note-main&quot;&gt;
+      &lt;p&gt;ajdkfhbasoifbaesoifuab epfiuaebfpioauseb fpiesfbuaosei fbuaslefubasle kfubalsekub.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;aside class=&quot;post-note&quot;&gt;
+
+      &lt;p&gt;&lt;strong&gt;note:&lt;/strong&gt; foisefoeioief&lt;/p&gt;
+    &lt;/aside&gt;
+  &lt;/div&gt;
 &lt;/details&gt;
 
 &lt;h2 id=&quot;heres-something-else&quot;&gt;here’s something else&lt;/h2&gt;
 
-&lt;p&gt;rgfuhabrofauibfoabs&lt;/p&gt;
+&lt;div class=&quot;post-note-row&quot;&gt;
+  &lt;div class=&quot;post-note-main&quot;&gt;
+
+    &lt;p&gt;sdfivbf afipsdfbasioif fipuabsfiouase fesfipausebfiausef asefpiausebfpasuef eiopfiunasepfubase fapseufbpausenfpaosef aseufbpaseufnase fipasuefpausebf asefpiuasbefpiuasbef aseepifubaepsifubasepifa esfipuasbefpiuabsef&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;aside class=&quot;post-note&quot;&gt;
+
+    &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; huh.&lt;/p&gt;
+
+  &lt;/aside&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;woah-im-flying&quot;&gt;woah I’m flying&lt;/h3&gt;
 

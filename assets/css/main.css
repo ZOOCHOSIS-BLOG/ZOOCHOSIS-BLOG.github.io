@@ -239,7 +239,15 @@ main {
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 
-.post-content > *:not(.post-note-row) {
+.post-content > *:not(.post-note-row):not(details) {
+    max-width: 66ch;
+}
+
+.post-content > details {
+    max-width: none;
+}
+
+.post-content > details > :not(.post-note-row) {
     max-width: 66ch;
 }
 
@@ -256,6 +264,9 @@ main {
 
 .post-note {
     min-width: 0;
+    width: fit-content;
+    max-width: 100%;
+    justify-self: end;
     padding: 1rem;
     border: 1px solid rgba(237, 237, 237, 0.25);
     border-radius: 0.28571429rem;

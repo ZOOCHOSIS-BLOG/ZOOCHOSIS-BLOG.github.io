@@ -159,6 +159,10 @@ footer {
     margin: 0 auto;
 }
 
+.theme-credit {
+    font-size: 0.8rem;
+}
+
 .ui.transparent.icon.input {
     color: rgba(237, 237, 237, 1) !important;
 }
@@ -232,6 +236,22 @@ main {
     margin: 0 auto;
     padding: 1.5rem;
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+}
+
+/* for colapsable summary titles:
+
+<details markdown="1">
+  <summary> Hello, I making a good nice post </summary>
+
+  Lorem ipsum...
+  ajdkfhbasoifbaesoifuab epfiuaebfpioauseb fpiesfbuaosei fbuaslefubasle kfubalsekub
+</details>
+
+*/
+
+.post-content details summary {
+    font-size: 1.938rem;
+    margin-block: 0.83rem;
 }
 
 .ui.horizontal.divider.reading-divider {

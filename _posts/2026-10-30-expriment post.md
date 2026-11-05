@@ -6,9 +6,10 @@ author: Phoebe Jennings-Gartside
 ---
 
 
-# Hello, I making a good nice post 
-
-ajdkfhbasoifbaesoifuab epfiuaebfpioauseb fpiesfbuaosei fbuaslefubasle kfubalsekub
+<details markdown="1">
+  <summary> Hello, I making a good nice post </summary>
+  ajdkfhbasoifbaesoifuab epfiuaebfpioauseb fpiesfbuaosei fbuaslefubasle kfubalsekub
+</details>
 
 ## here's something else 
 

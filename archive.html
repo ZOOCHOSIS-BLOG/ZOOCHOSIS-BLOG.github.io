@@ -3,8 +3,8 @@ layout: page
 title: Archive
 ---
 
+<div class="archive-content">
 {% for post in site.posts %}
-
     <div class="ui middle aligned selection list">
         <div class="item">
             <a class="header" href="{{ BASE_PATH }}{{ post.url }}">
@@ -22,5 +22,5 @@ title: Archive
             </div>
         </div>
     </div>
-
 {% endfor %}
+</div>

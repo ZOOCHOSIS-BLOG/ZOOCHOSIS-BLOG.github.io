@@ -3,9 +3,10 @@ layout: page
 title: Categories
 ---
 
-<div class="ui relaxed divided list">
-    {% assign sorted_categories = site.categories | sort %}
-    {% for category in sorted_categories %}
+<div class="categories-content">
+    <div class="ui relaxed divided list">
+        {% assign sorted_categories = site.categories | sort %}
+        {% for category in sorted_categories %}
         <div class="item">
             <h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
             <div class="ui list">
@@ -16,5 +17,6 @@ title: Categories
                 {% endfor %}
             </div>
         </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>

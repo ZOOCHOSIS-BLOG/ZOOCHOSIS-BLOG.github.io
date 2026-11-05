@@ -8,5 +8,5 @@ logo: false
 paginate: 15
 url: https://ZOOCHOSIS-BLOG.github.io
 baseurl: ""
-plugins: [jekyll-gist]
+plugins: [jekyll-gist, jekyll-paginate]
 permalink: /:year/:month/:title.html

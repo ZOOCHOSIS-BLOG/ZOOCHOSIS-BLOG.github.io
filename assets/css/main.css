@@ -33,11 +33,11 @@ img, video, iframe {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgba(26, 26, 31, 1);
-    /*background-image: url("/assets/img/other%20photos/textures/textures%203%20new%20grain%20and%20slightly%20darker.png");
+    background-color: rgba(26, 26, 31, 0.8);
+    background-image: url("/assets/img/other%20photos/textures/textures%203%20new%20grain%20and%20slightly%20darker.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;*/
+    background-repeat: repeat;
 }
 
 .the-voice {
@@ -48,6 +48,7 @@ body {
     text-align: right;
     letter-spacing: 0.05;
 }
+
 /* header */
 
 .header-wrapper {
@@ -137,7 +138,7 @@ header {
 
 .page-wrap {
     flex: 1 0 auto;
-    background-color: rgba(26, 26, 31, 0);
+    background-color: rgba(26, 26, 31, 0.25);
 }
 
 .page-wrap:after {
@@ -176,11 +177,11 @@ footer {
 /* main */
 
 main {
-    max-width: 70%;
+    max-width: 75%;
     margin: 0 auto;
     padding-top: 1rem;
     color: rgba(237, 237, 237, 1);
-    background-color: rgba(26, 26, 31, 1);
+    background-color: rgba(26, 26, 31, 0.8);
 }
 
 .ui.card {
@@ -231,7 +232,7 @@ main {
 .post-content {
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
-    padding: 1.5rem;
+    padding: 1.7rem;
     width: 100%;
     max-width: none;
     margin: 0;
@@ -239,10 +240,18 @@ main {
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 
+.categories-content {
+    padding: 1.7rem;
+}
+
+.archive-content {
+    padding: 1.7rem;
+}
+
 .about-content {
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
-    padding: 1.5rem;
+    padding: 2rem;
     max-width: 66ch;
     margin: 0 auto;
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);

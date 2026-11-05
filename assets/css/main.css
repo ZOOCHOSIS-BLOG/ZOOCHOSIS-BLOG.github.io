@@ -232,10 +232,41 @@ main {
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
     padding: 1.5rem;
-    max-width: 66ch;
-    margin: 0 auto;
-    padding: 1.5rem;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    box-sizing: border-box;
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+}
+
+.post-content > *:not(.post-note-row) {
+    max-width: 66ch;
+}
+
+.post-note-row {
+    display: grid;
+    grid-template-columns: minmax(0, 66ch) minmax(12rem, 1fr);
+    gap: 2rem;
+    align-items: start;
+}
+
+.post-note-main {
+    min-width: 0;
+}
+
+.post-note {
+    min-width: 0;
+    padding: 1rem;
+    border: 1px solid rgba(237, 237, 237, 0.25);
+    border-radius: 0.28571429rem;
+    background-color: rgba(237, 237, 237, 0.06);
+}
+
+@media all and (max-width: 1300px) {
+    .post-note-row {
+        grid-template-columns: minmax(0, 66ch);
+        gap: 0.5rem;
+    }
 }
 
 /* for colapsable summary titles:

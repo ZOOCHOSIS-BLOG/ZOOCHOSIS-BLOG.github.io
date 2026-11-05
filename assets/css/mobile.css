@@ -10,6 +10,16 @@
         display: none !important;
     }
 
+    .site-nav .ui.menu {
+        font-size: 0.85rem;
+    }
+
+    .site-nav .ui.menu > a.item {
+        padding-right: 0.55em;
+        padding-left: 0.55em;
+        white-space: nowrap;
+    }
+
     header {
         max-width: 95%;
     }

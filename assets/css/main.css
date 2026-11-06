@@ -87,7 +87,7 @@ header {
 
 .ui.menu .item > img.tiktok-logo {
     display: block;
-    height: 24px;
+    height: 20px;
     width: auto;
 }
 
@@ -298,6 +298,10 @@ main {
     vertical-align: middle;
 }
 
+.about-tiktok img {
+    height: 20px;
+}
+
 .about-instagram img {
     filter: brightness(0) invert(1);
 }
@@ -344,16 +348,6 @@ main {
     }
 }
 
-/* for colapsable summary titles:
-
-<details markdown="1">
-  <summary> Hello, I making a good nice post </summary>
-
-  Lorem ipsum...
-  ajdkfhbasoifbaesoifuab epfiuaebfpioauseb fpiesfbuaosei fbuaslefubasle kfubalsekub
-</details>
-
-*/
 
 .post-content details summary {
     font-size: 1.938rem;
@@ -394,7 +388,35 @@ main {
     adjust notes size 
     (notes box code copy here noted out)
 
-    background gradients, set up on about page.
     
 
 */
+    /* for colapsable summary titles:
+
+    <details markdown="1">
+  <summary> Hello, I making a good nice post </summary>
+
+  Lorem ipsum...
+  ajdkfhbasoifbaesoifuab epfiuaebfpioauseb fpiesfbuaosei fbuaslefubasle kfubalsekub
+    </details>
+
+    */
+
+
+
+
+    /*for notes
+    <div class="post-note-row" markdown="1">
+    <div class="post-note-main" markdown="1">
+  
+    "paragpraph text here"
+  
+    </div>
+    <aside class="post-note" markdown="1">
+  
+    **Note:** "note text here"
+  
+    </aside>
+    </div>
+    
+    */

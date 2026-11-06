@@ -37,6 +37,10 @@
         height: 20px !important;
     }
 
+    .footer-social img.tiktok-logo {
+        height: 18px !important;
+    }
+
     .site-nav .ui.menu {
         font-size: 0.85rem;
     }

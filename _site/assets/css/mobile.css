@@ -24,10 +24,6 @@
         padding: 1.5rem;
     }
 
-    .ui.stackable.grid.front-page-grid > .front-page-card-column {
-        width: 50% !important;
-    }
-
     .footer-wrapper .ui.menu {
         flex-wrap: wrap;
         justify-content: space-between;

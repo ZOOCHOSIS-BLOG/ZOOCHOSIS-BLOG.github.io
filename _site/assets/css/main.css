@@ -85,6 +85,12 @@ header {
     filter: brightness(0) invert(1);
 }
 
+.ui.menu .item > img.tiktok-logo {
+    display: block;
+    height: 24px;
+    width: auto;
+}
+
 .head-area {
     display: flex;
     align-items: center;
@@ -194,6 +200,12 @@ main {
     overflow: hidden;
 }
 
+@media all and (min-width: 992px) {
+    .ui.grid.front-page-grid > .column.three-card-column {
+        width: 33.33333333% !important;
+    }
+}
+
 .front-page-grid .ui.card > .content > .header {
     font-size: 1.1rem;
 }
@@ -272,6 +284,22 @@ main {
     max-width: 66ch;
     margin: 0 auto;
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+}
+
+.about-content > .alert {
+    margin-inline: -2rem;
+}
+
+.about-instagram img,
+.about-tiktok img {
+    width: auto;
+    height: 24px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.about-instagram img {
+    filter: brightness(0) invert(1);
 }
 
 /*for collapsables and notes column*/

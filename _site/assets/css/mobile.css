@@ -12,10 +12,20 @@
 
     footer {
         height: auto;
+        width: 95%;
+        margin: 0 auto;
     }
 
     .footer-wrapper {
-        max-width: 95%;
+        max-width: 100%;
+    }
+
+    .front-page-container {
+        padding: 1.5rem;
+    }
+
+    .ui.stackable.grid.front-page-grid > .front-page-card-column {
+        width: 50% !important;
     }
 
     .footer-wrapper .ui.menu {

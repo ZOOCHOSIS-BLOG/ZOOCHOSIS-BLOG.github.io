@@ -12,10 +12,16 @@
 
     footer {
         height: auto;
+        width: 95%;
+        margin: 0 auto;
     }
 
     .footer-wrapper {
-        max-width: 95%;
+        max-width: 100%;
+    }
+
+    .front-page-container {
+        padding: 1.5rem;
     }
 
     .footer-wrapper .ui.menu {

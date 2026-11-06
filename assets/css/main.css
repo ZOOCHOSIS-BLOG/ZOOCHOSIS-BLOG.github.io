@@ -33,8 +33,10 @@ img, video, iframe {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgba(26, 26, 31, 0.8);
-    background-image: url("/assets/img/other%20photos/textures/textures%203%20new%20grain%20and%20slightly%20darker.png");
+    background-color: rgba(26, 26, 31, 1);
+    background-image:
+        linear-gradient(rgba(26, 26, 31, 0.8), rgba(26, 26, 31, 0.8)),
+        url("/assets/img/other%20photos/textures/textures%204.png");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -152,11 +154,13 @@ footer {
     color: rgba(237, 237, 237, 1) !important;    
     background-color: rgba(26, 26, 31, 1);
     height: 6rem;
+    width: 81%;
+    margin: 0 auto;
     padding-top: 1rem;
 }
 
 .footer-wrapper { 
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -177,7 +181,7 @@ footer {
 /* main */
 
 main {
-    max-width: 75%;
+    max-width: 81%;
     margin: 0 auto;
     padding-top: 1rem;
     color: rgba(237, 237, 237, 1);
@@ -188,6 +192,14 @@ main {
     width: auto !important;
     max-height: 100rem;
     overflow: hidden;
+}
+
+.front-page-grid .ui.card > .content > .header {
+    font-size: 1.1rem;
+}
+
+.front-page-grid .ui.card .description {
+    font-size: 0.9rem;
 }
 
 .front-page-grid .ui.card .description {
@@ -227,12 +239,17 @@ main {
 
 .post-container {
     font-family: "Source Sans 3", sans-serif;
+    background-color: rgba(26, 26, 31, 0.8);
+}
+
+.front-page-container {
+    padding: 2rem;
 }
 
 .post-content {
     color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
-    padding: 1.7rem;
+    padding: 3rem;
     width: 100%;
     max-width: none;
     margin: 0;
@@ -346,10 +363,10 @@ main {
 
 
 /* to do: 
-    background textures - maybe easiest to make an image background. 
-    The text has lots of content either side of it, is there a way to fill it? a navigation thing? 
+    adjust notes size 
+    (notes box code copy here noted out)
 
-    Notes Column - boxed insert design. Photos, links, thoughts, perhaps citations.
+    background gradients, set up on about page.
     
 
 */

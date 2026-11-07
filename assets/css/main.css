@@ -1,4 +1,3 @@
-
 /* Source Sans 3 variable font */
 @font-face {
     font-family: "Source Sans 3";
@@ -16,7 +15,8 @@ html {
     line-height: 1.5;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -26,7 +26,9 @@ body,
     font-size: 1rem;
 }
 
-img, video, iframe {
+img,
+video,
+iframe {
     max-width: 100%;
 }
 
@@ -72,20 +74,20 @@ header {
     background-color: rgba(26, 26, 31, 0.75);
 }
 
-.ui.menu .item > img.bandcamp-logo {
+.ui.menu .item>img.bandcamp-logo {
     display: block;
     height: 24px;
     width: auto;
 }
 
-.ui.menu .item > img.instagram-logo {
+.ui.menu .item>img.instagram-logo {
     display: block;
     height: 24px;
     width: auto;
     filter: brightness(0) invert(1);
 }
 
-.ui.menu .item > img.tiktok-logo {
+.ui.menu .item>img.tiktok-logo {
     display: block;
     height: 20px;
     width: auto;
@@ -95,7 +97,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 1rem; /* space between logo and description */
+    gap: 1rem;
+    /* space between logo and description */
     padding: 2rem 5%;
 }
 
@@ -127,7 +130,7 @@ header {
     display: block;
     padding: 0.25em 0.5em;
     background-color: rgba(26, 26, 31, 0.75);
-    border-radius: 0.28571429rem;    
+    border-radius: 0.28571429rem;
 }
 
 .site-description {
@@ -157,7 +160,7 @@ header {
 /* footer */
 
 footer {
-    color: rgba(237, 237, 237, 1) !important;    
+    color: rgba(237, 237, 237, 1) !important;
     background-color: rgba(26, 26, 31, 1);
     height: 6rem;
     width: 81%;
@@ -165,7 +168,7 @@ footer {
     padding-top: 1rem;
 }
 
-.footer-wrapper { 
+.footer-wrapper {
     max-width: 100%;
     margin: 0 auto;
 }
@@ -201,12 +204,12 @@ main {
 }
 
 @media all and (min-width: 992px) {
-    .ui.grid.front-page-grid > .column.three-card-column {
+    .ui.grid.front-page-grid>.column.three-card-column {
         width: 33.33333333% !important;
     }
 }
 
-.front-page-grid .ui.card > .content > .header {
+.front-page-grid .ui.card>.content>.header {
     font-size: 1.1rem;
 }
 
@@ -222,7 +225,7 @@ main {
     overflow: hidden;
 }
 
-.ui.card image  {
+.ui.card image {
     width: 100% !important;
     height: 200px !important;
 }
@@ -235,7 +238,7 @@ main {
 
 .small-date {
     color: rgba(26, 26, 31, 1);
-    font-weight: lighter;   
+    font-weight: lighter;
 }
 
 .description {
@@ -245,6 +248,7 @@ main {
 .archive-preview {
     color: rgba(237, 237, 237, 1);
 }
+
 /* /main */
 
 /* post */
@@ -286,7 +290,7 @@ main {
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 
-.about-content > .alert {
+.about-content>.alert {
     margin-inline: -2rem;
 }
 
@@ -307,15 +311,15 @@ main {
 }
 
 /*for collapsables and notes column*/
-.post-content > *:not(.post-note-row):not(details) {
+.post-content>*:not(.post-note-row):not(details) {
     max-width: 66ch;
 }
 
-.post-content > details {
+.post-content>details {
     max-width: none;
 }
 
-.post-content > details > :not(.post-note-row) {
+.post-content>details> :not(.post-note-row) {
     max-width: 66ch;
 }
 
@@ -359,26 +363,26 @@ main {
 }
 
 .ui.segment {
-    color: rgba(237, 237, 237, 1); 
+    color: rgba(237, 237, 237, 1);
     background-color: rgba(26, 26, 31, 1);
 }
 
-.author-card .ui.items > .item > .content > .header,
-.author-card .ui.items > .item > .content > .description {
+.author-card .ui.items>.item>.content>.header,
+.author-card .ui.items>.item>.content>.description {
     color: rgba(237, 237, 237, 1);
 }
 
 /* /post */
 
 /* special and extra */
-    .alert {
-        padding: 20px;
-        background-color: #f88527;
-        color: black;
-        text-align: left;
-        margin-bottom: 15px;
-        border-radius: 0.28571429rem
-    }
+.alert {
+    padding: 20px;
+    background-color: #f88527;
+    color: black;
+    text-align: left;
+    margin-bottom: 15px;
+    border-radius: 0.28571429rem
+}
 
 
 
@@ -386,12 +390,18 @@ main {
 
 /* to do: 
     adjust notes size 
-    (notes box code copy here noted out)
 
     
 
 */
-    /* for colapsable summary titles:
+
+
+
+
+
+
+
+/* for colapsable summary titles:
 
     <details markdown="1">
   <summary> Hello, I making a good nice post </summary>
@@ -405,7 +415,8 @@ main {
 
 
 
-    /*for notes
+/*for notes
+
     <div class="post-note-row" markdown="1">
     <div class="post-note-main" markdown="1">
   
@@ -419,4 +430,26 @@ main {
     </aside>
     </div>
     
+    */
+
+
+
+
+
+
+/* Note within a colopsable section
+    
+    <details markdown="1">
+    <summary> Hello, I making a good nice post </summary>
+    <div class="post-note-row" markdown="1">
+    <div class="post-note-main" markdown="1">
+    "paragpraph text here"    
+    </div>
+    <aside class="post-note" markdown="1">
+  
+  **note:** "note text here"
+    </aside>
+    </div>
+  </details>
+  
     */
